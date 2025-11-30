@@ -19,7 +19,7 @@ def user_input():
     income = col_1.slider('Total income per year', min_value=10.0, max_value=100000.0, value=10.0)
 
     priorDefault = col_2.selectbox('Prior default? (1 = True, 0 = False)', options=[0,1], index=0)
-    employed = col_2.selectbox('Employment status (1 = Employed, 0 = Not employed)', options=[0,1], index=1)
+    employed = col_2.selectbox('Employment status (0 = Employed, 1 = Not employed)', options=[0,1], index=1)
     creditScore = col_2.slider("Customer's credit score", min_value=0.0, max_value=100.0, value=0.0)
 
     # MUST MATCH EXACT TRAINING FEATURE NAMES
