@@ -1,3 +1,7 @@
-streamlit==0.88.0
-pandas==1.2.0
+streamlit==1.26.0
+pandas
+numpy
 scikit-learn
+matplotlib
+seaborn
+pickle5  # optional; normal pickle works too
